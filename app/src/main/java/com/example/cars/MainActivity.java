@@ -118,26 +118,26 @@ public class MainActivity extends AppCompatActivity {
                 place1 = 1;
                 place2 = 1;
                 place3 = 2;
-            } else if ((sec2 == sec3) && (sec2 < sec1)) {
-                place2 = 1;
-                place3 = 1;
+            } else if ((sec1 == sec2) && (sec3 < sec1)) {
                 place1 = 2;
-            } else if ((sec2 == sec3) && (sec2 < sec1)) {
-                place1 = 1;
-                place2 = 1;
-                place3 = 2;
+                place2 = 2;
+                place3 = 1;
             } else if ((sec2 == sec3) && (sec1 < sec2)) {
                 place1 = 1;
                 place2 = 2;
                 place3 = 2;
-            } else if ((sec1 == sec3) && (sec2 < sec1)) {
+            } else if ((sec2 == sec3) && (sec2 < sec1)) {
+                place1 = 2;
                 place2 = 1;
-                place1 = 2;
-                place3 = 2;
-            } else if ((sec1 == sec2) && (sec3 < sec1)) {
                 place3 = 1;
-                place1 = 2;
+            } else if ((sec1 == sec3) && (sec1 < sec2)) {
+                place1 = 1;
                 place2 = 2;
+                place3 = 1;
+            } else if ((sec1 == sec3) && (sec2 < sec1)) {
+                place1 = 2;
+                place2 = 1;
+                place3 = 2;
             } else if ((sec1 < sec2) && (sec2 < sec3)) {
                 place1 = 1;
                 place2 = 2;
