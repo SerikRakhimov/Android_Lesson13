@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/textViewPath1"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:text="1" />
+                <TextView
+                    android:id="@+id/textViewPath2"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:text="1" />
+                <TextView
+                    android:id="@+id/textViewPath3"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:text="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textViewSec1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:text="1 сек." />
+                <TextView
+                    android:id="@+id/textViewSec2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25dp"
+                    android:text="1 сек." />
+                <TextView
+                    android:id="@+id/textViewSec3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25dp"
+                    android:text="1 сек." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id="@+id/imageViewWay1"
+                    android:layout_width="30dp"
+                    android:layout_height="1000px"
+                    android:background="@drawable/ic_launcher_background" />
+                <ImageView
+                    android:id="@+id/imageViewCar1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/ic_car1"
+                    android:layout_marginLeft="-70px"
+                    android:layout_marginTop="1000px"/>
+                <ImageView
+                    android:id="@+id/imageViewWay2"
+                    android:layout_width="30dp"
+                    android:layout_height="1000px"
+                    android:layout_marginLeft="60dp"
+                    android:background="@drawable/ic_launcher_background" />
+                <ImageView
+                    android:id="@+id/imageViewCar2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/ic_car2"
+                    android:layout_marginLeft="-70px"
+                    android:layout_marginTop="1000px"/>
+                <ImageView
+                    android:id="@+id/imageViewWay3"
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_height="1000px"
+                    android:background="@drawable/ic_launcher_background" />
+                <ImageView
+                    android:id="@+id/imageViewCar3"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/ic_car3"
+                    android:layout_marginLeft="-70px"
+                    android:layout_marginTop="1000px"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
